@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+Template Name: BizMedia
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Gallery CSS
+*/
+
+#gallery{display:block; float:left; width:420px; height:253px;}
+#gallery h1, #gallery p, #gallery ul, #gallery a{margin:0; padding:0; list-style:none; line-height:normal;}
+#gallery li{display:inline; float:left;}
+#gallery .placeholder{display:block; float:left; width:400px; height:200px; margin:0; padding:9px; border:1px solid #DADADA; text-indent:-9999px;}
+#gallery a.swap:link, #gallery a.swap:visited, #gallery a.swap:hover{display:inline; float:left; width:33px; height:17px; margin:13px 10px 0 0; padding:3px 0 0 0; color:#496372; background-color:#141B1F; text-align:center;}
+#gallery a.swap:hover{color:#FF9900; background-color:#222B31;}
+#hpage #gallery li.last a{margin-right:0;}
+#gallery li.placeholder{background:9px 9px no-repeat;}
+
+a.swap:hover{white-space:normal;}
+a.swap:link span, a.swap:visited span, a.swap:active span{visibility:hidden; position:absolute; top:40px; left:10px; width:400px; height:200px;}
+a.swap:active span, a.swap:hover span, a.swap:focus span{visibility:visible;}
+a.swap:active img, a.swap:focus img{position:relative; z-index:50;}
+

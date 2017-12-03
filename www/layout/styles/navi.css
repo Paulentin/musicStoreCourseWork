@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*
+Template Name: BizMedia
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Navigation CSS
+*/
+
+#header ul#topnav{display:block; float:right; width:700px; margin:5px 0 0 0; padding:0; list-style:none; font-size:16px;}
+#header ul#topnav ul, #header li{float:right; list-style:none; margin:0; padding:0;}
+#header li a:link, #header li a:visited, #header li a:hover{display:block; margin:0 20px 0 0; padding:5px 20px; color:#585858; background-color:#171E24; border-left:1px solid #616161;}
+#header ul#topnav ul li a:link, #header ul#topnav ul li a:visited{border:none;}
+#header ul#topnav li.last a{margin-right:0;}
+#header li a:hover, #header ul#topnav li.active a{color:#FFFFFF; background-color:#323639;}
+#header li li a:link, #header li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal; font-family:Verdana, Arial, Helvetica, sans-serif; color:#585858; background-color:#171E24;}
+#header li li a:hover{color:#FFFFFF; background-color:#323639;}
+#header li ul{background:#FFFFFF; z-index:9999; position:absolute; left:-999em; height:auto; width:170px; border-left:1px solid #616161; border-bottom:1px solid #616161;}
+#header li ul a{width:140px;}
+#header li ul ul{margin:-32px 0 0 0;}
+#header li:hover ul ul{left:-999em;}
+#header li:hover ul, #header li li:hover ul{left:auto;}
+#header li:hover{position:static;}
+#header li.last a{margin-right:0;}
